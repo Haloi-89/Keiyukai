@@ -15,10 +15,10 @@ p {
   width: 100%;
 }
 #footer,
-#trangchu {
+#gioithieu {
   font-style: normal;
   padding: 0px;
-  text-align: center;
+  text-align: justify;
   width: 100%;
 }
 
@@ -107,7 +107,7 @@ image {
 }
 
 .nutbam:hover {
-  background-color: rgb(221, 144, 2);
+  background-color: rgb(4, 204, 121);
 }
 
 /* Các bài học */
