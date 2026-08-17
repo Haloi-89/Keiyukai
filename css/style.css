@@ -34,36 +34,37 @@ header {
 /* Menu */
 
 nav {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 
-    flex-wrap: nowrap;
-    overflow-x: auto;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 
-    background-color: #1e293b;
+  background-color: #1e293b;
 
-    padding: 10px 5px;
+  padding: 10px 5px;
 
-    scrollbar-width: none;
+  scrollbar-width: none;
 }
 
 nav::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 nav a {
-    flex-shrink: 0;
+  flex-shrink: 0;
 
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 
-    padding: 8px 10px;
+  padding: 8px 10px;
 
-    font-size: 15px;
+  font-size: 15px;
 
-    white-space: nowrap;
+  white-space: nowrap;
 }
+
 /* tạo gạch chân khi click vào tiêu đề */
 nav a:hover {
   text-decoration: underline;
