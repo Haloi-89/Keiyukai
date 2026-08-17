@@ -428,3 +428,26 @@ td a:hover {
     font-size: 14px;
   }
 }
+
+/* Hình ảnh */
+.khunggioithieu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.khunggioithieu img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+}
+
+/* Điện thoại */
+@media (max-width: 600px) {
+  .khunggioithieu img {
+    width: 100%;
+    height: auto;
+  }
+}
